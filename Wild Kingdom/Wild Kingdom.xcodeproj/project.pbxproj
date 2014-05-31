@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D013919519390E0D0001B064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013919419390E0D0001B064 /* Foundation.framework */; };
+		D013919719390E0D0001B064 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013919619390E0D0001B064 /* CoreGraphics.framework */; };
+		D013919919390E0D0001B064 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013919819390E0D0001B064 /* UIKit.framework */; };
+		D013919F19390E0D0001B064 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D013919D19390E0D0001B064 /* InfoPlist.strings */; };
+		D01391A119390E0D0001B064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D01391A019390E0D0001B064 /* main.m */; };
+		D01391A519390E0D0001B064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D01391A419390E0D0001B064 /* AppDelegate.m */; };
+		D01391A819390E0D0001B064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01391A619390E0D0001B064 /* Main.storyboard */; };
+		D01391AB19390E0D0001B064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01391AA19390E0D0001B064 /* ViewController.m */; };
+		D01391AD19390E0D0001B064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01391AC19390E0D0001B064 /* Images.xcassets */; };
+		D01391B419390E0D0001B064 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01391B319390E0D0001B064 /* XCTest.framework */; };
+		D01391B519390E0D0001B064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013919419390E0D0001B064 /* Foundation.framework */; };
+		D01391B619390E0D0001B064 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D013919819390E0D0001B064 /* UIKit.framework */; };
+		D01391BE19390E0D0001B064 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D01391BC19390E0D0001B064 /* InfoPlist.strings */; };
+		D01391C019390E0D0001B064 /* Wild_KingdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D01391BF19390E0D0001B064 /* Wild_KingdomTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D01391B719390E0D0001B064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D013918919390E0D0001B064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D013919019390E0D0001B064;
+			remoteInfo = "Wild Kingdom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D013919119390E0D0001B064 /* Wild Kingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wild Kingdom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D013919419390E0D0001B064 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D013919619390E0D0001B064 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D013919819390E0D0001B064 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D013919C19390E0D0001B064 /* Wild Kingdom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wild Kingdom-Info.plist"; sourceTree = "<group>"; };
+		D013919E19390E0D0001B064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D01391A019390E0D0001B064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D01391A219390E0D0001B064 /* Wild Kingdom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wild Kingdom-Prefix.pch"; sourceTree = "<group>"; };
+		D01391A319390E0D0001B064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D01391A419390E0D0001B064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D01391A719390E0D0001B064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D01391A919390E0D0001B064 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D01391AA19390E0D0001B064 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D01391AC19390E0D0001B064 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D01391B219390E0D0001B064 /* Wild KingdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wild KingdomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01391B319390E0D0001B064 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D01391BB19390E0D0001B064 /* Wild KingdomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wild KingdomTests-Info.plist"; sourceTree = "<group>"; };
+		D01391BD19390E0D0001B064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D01391BF19390E0D0001B064 /* Wild_KingdomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wild_KingdomTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D013918E19390E0D0001B064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D013919719390E0D0001B064 /* CoreGraphics.framework in Frameworks */,
+				D013919919390E0D0001B064 /* UIKit.framework in Frameworks */,
+				D013919519390E0D0001B064 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01391AF19390E0D0001B064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01391B419390E0D0001B064 /* XCTest.framework in Frameworks */,
+				D01391B619390E0D0001B064 /* UIKit.framework in Frameworks */,
+				D01391B519390E0D0001B064 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D013918819390E0D0001B064 = {
+			isa = PBXGroup;
+			children = (
+				D013919A19390E0D0001B064 /* Wild Kingdom */,
+				D01391B919390E0D0001B064 /* Wild KingdomTests */,
+				D013919319390E0D0001B064 /* Frameworks */,
+				D013919219390E0D0001B064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D013919219390E0D0001B064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D013919119390E0D0001B064 /* Wild Kingdom.app */,
+				D01391B219390E0D0001B064 /* Wild KingdomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D013919319390E0D0001B064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D013919419390E0D0001B064 /* Foundation.framework */,
+				D013919619390E0D0001B064 /* CoreGraphics.framework */,
+				D013919819390E0D0001B064 /* UIKit.framework */,
+				D01391B319390E0D0001B064 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D013919A19390E0D0001B064 /* Wild Kingdom */ = {
+			isa = PBXGroup;
+			children = (
+				D01391A319390E0D0001B064 /* AppDelegate.h */,
+				D01391A419390E0D0001B064 /* AppDelegate.m */,
+				D01391A619390E0D0001B064 /* Main.storyboard */,
+				D01391A919390E0D0001B064 /* ViewController.h */,
+				D01391AA19390E0D0001B064 /* ViewController.m */,
+				D01391AC19390E0D0001B064 /* Images.xcassets */,
+				D013919B19390E0D0001B064 /* Supporting Files */,
+			);
+			path = "Wild Kingdom";
+			sourceTree = "<group>";
+		};
+		D013919B19390E0D0001B064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D013919C19390E0D0001B064 /* Wild Kingdom-Info.plist */,
+				D013919D19390E0D0001B064 /* InfoPlist.strings */,
+				D01391A019390E0D0001B064 /* main.m */,
+				D01391A219390E0D0001B064 /* Wild Kingdom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D01391B919390E0D0001B064 /* Wild KingdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				D01391BF19390E0D0001B064 /* Wild_KingdomTests.m */,
+				D01391BA19390E0D0001B064 /* Supporting Files */,
+			);
+			path = "Wild KingdomTests";
+			sourceTree = "<group>";
+		};
+		D01391BA19390E0D0001B064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D01391BB19390E0D0001B064 /* Wild KingdomTests-Info.plist */,
+				D01391BC19390E0D0001B064 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D013919019390E0D0001B064 /* Wild Kingdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01391C319390E0D0001B064 /* Build configuration list for PBXNativeTarget "Wild Kingdom" */;
+			buildPhases = (
+				D013918D19390E0D0001B064 /* Sources */,
+				D013918E19390E0D0001B064 /* Frameworks */,
+				D013918F19390E0D0001B064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wild Kingdom";
+			productName = "Wild Kingdom";
+			productReference = D013919119390E0D0001B064 /* Wild Kingdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D01391B119390E0D0001B064 /* Wild KingdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01391C619390E0D0001B064 /* Build configuration list for PBXNativeTarget "Wild KingdomTests" */;
+			buildPhases = (
+				D01391AE19390E0D0001B064 /* Sources */,
+				D01391AF19390E0D0001B064 /* Frameworks */,
+				D01391B019390E0D0001B064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D01391B819390E0D0001B064 /* PBXTargetDependency */,
+			);
+			name = "Wild KingdomTests";
+			productName = "Wild KingdomTests";
+			productReference = D01391B219390E0D0001B064 /* Wild KingdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D013918919390E0D0001B064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan Tiltz";
+				TargetAttributes = {
+					D01391B119390E0D0001B064 = {
+						TestTargetID = D013919019390E0D0001B064;
+					};
+				};
+			};
+			buildConfigurationList = D013918C19390E0D0001B064 /* Build configuration list for PBXProject "Wild Kingdom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D013918819390E0D0001B064;
+			productRefGroup = D013919219390E0D0001B064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D013919019390E0D0001B064 /* Wild Kingdom */,
+				D01391B119390E0D0001B064 /* Wild KingdomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D013918F19390E0D0001B064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01391AD19390E0D0001B064 /* Images.xcassets in Resources */,
+				D013919F19390E0D0001B064 /* InfoPlist.strings in Resources */,
+				D01391A819390E0D0001B064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01391B019390E0D0001B064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01391BE19390E0D0001B064 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D013918D19390E0D0001B064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01391AB19390E0D0001B064 /* ViewController.m in Sources */,
+				D01391A519390E0D0001B064 /* AppDelegate.m in Sources */,
+				D01391A119390E0D0001B064 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01391AE19390E0D0001B064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01391C019390E0D0001B064 /* Wild_KingdomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D01391B819390E0D0001B064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D013919019390E0D0001B064 /* Wild Kingdom */;
+			targetProxy = D01391B719390E0D0001B064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D013919D19390E0D0001B064 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D013919E19390E0D0001B064 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D01391A619390E0D0001B064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01391A719390E0D0001B064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D01391BC19390E0D0001B064 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01391BD19390E0D0001B064 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D01391C119390E0D0001B064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D01391C219390E0D0001B064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01391C419390E0D0001B064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wild Kingdom/Wild Kingdom-Prefix.pch";
+				INFOPLIST_FILE = "Wild Kingdom/Wild Kingdom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D01391C519390E0D0001B064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wild Kingdom/Wild Kingdom-Prefix.pch";
+				INFOPLIST_FILE = "Wild Kingdom/Wild Kingdom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D01391C719390E0D0001B064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wild Kingdom.app/Wild Kingdom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wild Kingdom/Wild Kingdom-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wild KingdomTests/Wild KingdomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D01391C819390E0D0001B064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wild Kingdom.app/Wild Kingdom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wild Kingdom/Wild Kingdom-Prefix.pch";
+				INFOPLIST_FILE = "Wild KingdomTests/Wild KingdomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D013918C19390E0D0001B064 /* Build configuration list for PBXProject "Wild Kingdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01391C119390E0D0001B064 /* Debug */,
+				D01391C219390E0D0001B064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01391C319390E0D0001B064 /* Build configuration list for PBXNativeTarget "Wild Kingdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01391C419390E0D0001B064 /* Debug */,
+				D01391C519390E0D0001B064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D01391C619390E0D0001B064 /* Build configuration list for PBXNativeTarget "Wild KingdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01391C719390E0D0001B064 /* Debug */,
+				D01391C819390E0D0001B064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D013918919390E0D0001B064 /* Project object */;
+}
